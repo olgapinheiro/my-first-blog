@@ -29,6 +29,7 @@ h1, h2, h3, h4 {
 
 .date {
 	color: #828282;
+	display: inline;
 }
 
 .save {
@@ -52,4 +53,12 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
 	color: #000000;
+}
+
+.post_header {
+	float: right;
+}
+
+#edit-btn{
+	display: inline;
 }
