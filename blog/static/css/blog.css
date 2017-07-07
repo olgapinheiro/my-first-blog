@@ -16,6 +16,7 @@ body {
 	margin-right: 0;
 	margin-left: 0;
 	padding: 20px 20px 20px 40px;
+	z-index: 9999;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -29,7 +30,7 @@ body {
 	margin-right: 0;
 	position: relative;
 	top: 200px;
-	z-index: -1;
+	/*z-index: -1;	/*por algum motivo, isso tá impedindo a seleção de texto e a ativação dos links*/
 }
 
 
@@ -55,17 +56,16 @@ h1, h2, h3, h4 {
 	float: right;
 	font-size: 26pt;
 	margin-right: 20px;
+	padding-top: 20px;
 }
 
 .post {
 	margin-bottom: 20px;
-	background-color: #E5FAFF/*E5EEFF*/;
+	background-color: #E5FAFF;
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-top: 20px;
-	/*border: 2px solid;*/
     border-radius: 40px 10px;
-
 }
 
 .post h1 a, .post h1 a:visited {
@@ -74,6 +74,11 @@ h1, h2, h3, h4 {
 
 .post_header {
 	float: right;
+}
+
+.header-btns {
+	margin-right: 0;
+	margin-left: 50;
 }
 
 #edit-btn{
